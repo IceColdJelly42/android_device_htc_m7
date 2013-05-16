@@ -1,16 +1,16 @@
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/aokp/config/common_full_phone.mk)
 
-$(call inherit-product, vendor/cm/config/gsm.mk)
+$(call inherit-product, vendor/aokp/config/gsm.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/aokp/config/nfc_enhanced.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/htc/m7/device_m7.mk)
 
 # Device naming
 PRODUCT_DEVICE := m7
-PRODUCT_NAME := cm_m7
+PRODUCT_NAME := aokp_m7
 PRODUCT_BRAND := htc
 PRODUCT_MODEL := HTC One
 PRODUCT_MANUFACTURER := HTC
@@ -25,4 +25,4 @@ PRODUCT_RELEASE_NAME := m7
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
--include vendor/cm/config/common_versions.mk
+-include vendor/aokp/config/common_versions.mk
