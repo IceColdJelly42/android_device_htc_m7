@@ -40,6 +40,9 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 # RIL
 BOARD_PROVIDES_LIBRIL := true
 
+#custom init rc
+TARGET_PROVIDES_INIT_RC := true
+
 # cat /proc/emmc:
 # dev:        size     erasesize name
 # mmcblk0p19: 000ffa00 00000200 "misc"
