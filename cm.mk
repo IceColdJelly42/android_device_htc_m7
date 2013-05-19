@@ -1,4 +1,5 @@
-$(call inherit-product, vendor/aokp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aokp/config/common.mk)
+$(call inherit-product, vendor/aokp/config/common-versions.mk)
 
 $(call inherit-product, vendor/aokp/config/gsm.mk)
 
@@ -24,5 +25,3 @@ PRODUCT_RELEASE_NAME := m7
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
-
--include vendor/aokp/config/common_versions.mk
